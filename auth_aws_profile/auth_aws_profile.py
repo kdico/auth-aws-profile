@@ -1,6 +1,6 @@
 """Updates configured AWS credentials with MFA."""
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 import argparse
 import configparser
