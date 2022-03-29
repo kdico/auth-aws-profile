@@ -2,7 +2,7 @@
 name = "auth-aws-profile"
 version = "0.1.2"
 description = "Updates the configured MFA credentials for AWS services."
-authors = ["kdico <6wng7f78m@mozmail.com>"]
+authors = ["kdico <jokey_mixers_0u@icloud.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6.2"
