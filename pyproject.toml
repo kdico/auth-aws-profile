@@ -1,26 +1,30 @@
 [tool.poetry]
 name = "auth-aws-profile"
-version = "0.1.2"
+version = "0.2.0"
 description = "Updates the configured MFA credentials for AWS services."
-authors = ["kdico <jokey_mixers_0u@icloud.com>"]
+authors = ["kdico <8462911+kdico@users.noreply.github.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.6.2"
-boto3 = "^1.20.15"
+python = "^3.12"
+boto3 = "^1.35.5"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/kdico/auth-aws-profile/issues"
 
 [tool.poetry.scripts]
 auth-aws-profile = "auth_aws_profile.auth_aws_profile:main"
 
-[tool.poetry.dev-dependencies]
-black = "^21.11b1"
-pre-commit = "^2.15.0"
-pylint = "^2.12.1"
-flake8 = "^4.0.1"
-isort = "^5.10.1"
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+pre-commit = "^3.8.0"
+pylint = "^3.2.6"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
 
 [tool.isort]
 profile = "black"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.2.0"]
 build-backend = "poetry.core.masonry.api"
